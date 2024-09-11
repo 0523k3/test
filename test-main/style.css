@@ -1,0 +1,195 @@
+*{
+    margin: 0; /*바깥쪽 여백 : 0*/
+    padding: 0; /*안쪽 여백 : 0*/
+    box-sizing: border-box; /*테두리 두께 무시*/
+  
+    
+  }
+
+html{
+  scroll-behavior: smooth;
+
+}
+
+
+
+
+  a{
+    text-decoration: none; /*밑줄 제거*/
+    display: block; /*a태그를 블록 요소로 변경*/
+    color: black; /*글자색 : black*/
+  }
+  li{
+    list-style-type: none; /*li태그 기호 제거*/
+  }
+  .container{
+    width: 100%;
+    height: 1200px;
+  
+    background: linear-gradient( rgba(0,0,0,0.8) , rgba(0,0,0,0.8)    )  ,url(bg.jpg) no-repeat;
+    background-size: cover;
+  
+    color: white;
+  }
+  .header{
+    width: 100%;
+    height: 100px;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo{
+    width: 200px;
+    height: 80px;
+  
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .menu{
+    width: 400px;
+    height: 100px;
+  
+    display: flex;
+    align-items: center;
+  }
+  .menu li{
+    width: 100px;
+    text-align: center;
+  }
+  .menu li a{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  
+  .main{
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+  
+    margin-top: 200px;
+    text-align: center;
+  }
+  .main h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+  }
+  .main h2{
+    font-size: 45px;
+    margin-bottom: 50px;
+  }
+  .main p{
+    font-size: 30px;
+    margin-bottom: 150px;
+  }
+  .main button{
+    font-size: 30px;
+    width: 300px;
+    height: 100px;
+    border-radius: 30px;
+    background-color: transparent;
+  
+    color: white;
+    border: 3px solid white;
+  }
+  .main button:hover{
+    background-color: deeppink;
+    color: black;
+    cursor: pointer;
+  }
+
+  .about{
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 200px;
+  }
+  .about h2{
+    font-size: 30px;
+    color: #ff6a6a;
+  }
+  .about h1{
+    font-size: 50px;
+  
+  }
+  .about .contents{
+    width: 100%;
+    height: 500px;
+    display: flex;
+  }
+  .about .left{
+    width: 400px;
+    height: 500px;
+  
+  }
+  .about .right{
+    width: 800px;
+    height: 500px;
+  
+  }
+  .about img{
+    width: 400px;
+    height: 500px;
+  
+  }
+  .about .right h3{
+    font-size: 22px;
+    color: black;
+
+  }
+  .about .right li{
+    font-size: 22px;
+    margin-top: 10px;
+  }
+
+  .fa-youtube{
+    color: red;
+
+  }
+  .fa-facebook{
+    color: #3B5998;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
